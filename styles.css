@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.wtr {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(247, 245, 245);
+    margin:17% auto;
+    border-radius: 50%;
+    -webkit-box-shadow: inset -10px 10px 49px -5px rgba(20,19,20,0.77);
+    -moz-box-shadow: inset -10px 10px 49px -5px rgba(20,19,20,0.77);
+    box-shadow: inset -10px 10px 49px -5px rgba(20,19,20,0.77);
+    }
+
+.sun-efect {
+    position: absolute;
+    top:30px;
+    left: 130px;
+    width: 50px;
+    height: 20px;
+    border-radius: 50% 50% 30% 30%;
+    background-color: white;
+    transform: rotate(45deg);
+    
+}
+
+.shadow-efect {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-box-shadow: -23px 23px 49px -5px rgba(20,19,20,0.77);
+    -moz-box-shadow: -23px 23px 49px -5px rgba(20,19,20,0.77);
+    box-shadow: -23px 23px 49px -5px rgba(20,19,20,0.77);
+}
